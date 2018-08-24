@@ -297,10 +297,6 @@ class SwipeRow extends Component {
 			<View style={this.props.style ? this.props.style : styles.container}>
 				<View style={[
 					styles.hidden,
-					{
-						height: this.state.hiddenHeight,
-						width: this.state.hiddenWidth,
-					}
 				]}>
 					{this.props.children[0]}
 				</View>
